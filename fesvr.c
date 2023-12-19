@@ -1,4 +1,4 @@
-/*  
+﻿/*  
     Front End Server Core 
         
                 by Fumi.Iseki '22 01/09   BSD License.

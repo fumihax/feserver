@@ -1,4 +1,4 @@
-/* vi: set tabstop=4 nocindent noautoindent: */
+﻿/* vi: set tabstop=4 nocindent noautoindent: */
 
 #ifndef _FE_SMTP_TOOLS_H
 #define _FE_SMTP_TOLLS_H

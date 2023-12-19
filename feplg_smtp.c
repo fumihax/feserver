@@ -1,4 +1,4 @@
-/* vi: set tabstop=4 paste nocindent noautoindent: */
+﻿/* vi: set tabstop=4 paste nocindent noautoindent: */
 
 /*  
     SMTP 2.6 for Front End Server
