@@ -1,0 +1,2111 @@
+
+=CC================================================================================= 1861249
+ \»Ûc
+=CC================================================================================= 1861250
+GET /hub/home HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://el.mml.tuis.ac.jp/
+Connection: keep-alive
+Cookie: jupyterhub-hub-login="2|1:0|10:1686722291|20:jupyterhub-hub-login|44:NzgwOTQzMDY0MzA0NDcwYTlhN2EyNWM1MTY5OWI5Mzc=|b1b255d4fb77e4ef401aa78ccb4a87ce1bff9737898e3de792104f8aa1469852"; _xsrf=2|9e1d1b9f|89d7e52c8e6de31a46de68ce118705de|1686721609; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861251
+GET /hub/spawn/iseki HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/hub/home
+Cookie: jupyterhub-hub-login="2|1:0|10:1686722291|20:jupyterhub-hub-login|44:NzgwOTQzMDY0MzA0NDcwYTlhN2EyNWM1MTY5OWI5Mzc=|b1b255d4fb77e4ef401aa78ccb4a87ce1bff9737898e3de792104f8aa1469852"; _xsrf=2|9e1d1b9f|89d7e52c8e6de31a46de68ce118705de|1686721609; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861252
+GET /hub/spawn-pending/iseki HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/hub/home
+Connection: keep-alive
+Cookie: jupyterhub-hub-login="2|1:0|10:1686722291|20:jupyterhub-hub-login|44:NzgwOTQzMDY0MzA0NDcwYTlhN2EyNWM1MTY5OWI5Mzc=|b1b255d4fb77e4ef401aa78ccb4a87ce1bff9737898e3de792104f8aa1469852"; _xsrf=2|9e1d1b9f|89d7e52c8e6de31a46de68ce118705de|1686721609; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861253
+GET /hub/api/users/iseki/server/progress?_xsrf=2
+=CC================================================================================= 1861254
+GET /hub/spawn-pending/iseki HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/hub/home
+Connection: keep-alive
+Cookie: jupyterhub-hub-login="2|1:0|10:1686722291|20:jupyterhub-hub-login|44:NzgwOTQzMDY0MzA0NDcwYTlhN2EyNWM1MTY5OWI5Mzc=|b1b255d4fb77e4ef401aa78ccb4a87ce1bff9737898e3de792104f8aa1469852"; _xsrf=2|9e1d1b9f|89d7e52c8e6de31a46de68ce118705de|1686721609; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861606
+GET /user/iseki/ HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/hub/home
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686721615|21:jupyterhub-user-iseki|40:VjFKWFlxS2xiYmgyNFNiUjEyY2pDQTVabHFjMW43|2d02947f16ced77d3ed5d2fe5ac7b203d267989201424f79778814d9abd2f3c5; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861607
+GET /user/iseki/lab? HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/hub/home
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686721615|21:jupyterhub-user-iseki|40:VjFKWFlxS2xiYmgyNFNiUjEyY2pDQTVabHFjMW43|2d02947f16ced77d3ed5d2fe5ac7b203d267989201424f79778814d9abd2f3c5; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861608
+GET /hub/api/oauth2/authorize?client_id=jupyterhub-user-iseki&redirect_uri=0.000000user0.000000iseki0.000000oauth_callback&response_type=code&state=eyJ1dWlkIjogIjAxMjJhYmViZmFhODQwMWFhZmNiN2U2NDY0YjBmYjQ0IiwgIm5leHRfdXJsIjogIi91c2VyL2lzZWtpL2xhYj8ifQ HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/hub/home
+Connection: keep-alive
+Cookie: jupyterhub-hub-login="2|1:0|10:1686722291|20:jupyterhub-hub-login|44:NzgwOTQzMDY0MzA0NDcwYTlhN2EyNWM1MTY5OWI5Mzc=|b1b255d4fb77e4ef401aa78ccb4a87ce1bff9737898e3de792104f8aa1469852"; _xsrf=2|9e1d1b9f|89d7e52c8e6de31a46de68ce118705de|1686721609; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861609
+GET /user/iseki/oauth_callback?code=JOyewXKesXC0I7LGjlwLRzO9RCsdaN&state=eyJ1dWlkIjogIjAxMjJhYmViZmFhODQwMWFhZmNiN2U2NDY0YjBmYjQ0IiwgIm5leHRfdXJsIjogIi91c2VyL2lzZWtpL2xhYj8ifQ HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/hub/home
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686721615|21:jupyterhub-user-iseki|40:VjFKWFlxS2xiYmgyNFNiUjEyY2pDQTVabHFjMW43|2d02947f16ced77d3ed5d2fe5ac7b203d267989201424f79778814d9abd2f3c5; jupyterhub-user-iseki-oauth-state=2|1:0|10:1686722295|33:jupyterhub-user-iseki-oauth-state|136:ZXlKMWRXbGtJam9nSWpBeE1qSmhZbVZpWm1GaE9EUXdNV0ZoWm1OaU4yVTJORFkwWWpCbVlqUTBJaXdnSW01bGVIUmZkWEpzSWpvZ0lpOTFjMlZ5TDJselpXdHBMMnhoWWo4aWZR|042bd534cc2d5de00c60a2f8f3b91297f18dff2766e5b0fd8341729523970c74; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861611
+GET /user/iseki/lab? HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/hub/home
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861612
+GET /user/iseki/lab/extensions/jupyterlab_pygments/static/remoteEntry.aa1060b2d1221f8e5688.js HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861614
+GET /user/iseki/lab/extensions/@jupyter-widgets/jupyterlab-manager/static/remoteEntry.35e76720037cafa02724.js HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861613
+GET /user/iseki/lab/extensions/jupyterlab_pygments/static/747.8eb3ddccc7ec4987bff9.js?v=8eb3ddccc7ec4987bff9 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861619
+GET /user/iseki/lab/extensions/jupyterlab_pygments/static/568.1e2faa2ba0bbe59c4780.js?v=1e2faa2ba0bbe59c4780 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861622
+GET /user/iseki/lab/extensions/@jupyter-widgets/jupyterlab-manager/static/291.0b98a9cbc7337e1749ed.js?v=0b98a9cbc7337e1749ed HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861625
+GET /user/iseki/lab/extensions/@jupyter-widgets/jupyterlab-manager/static/699.2ea6ecfcddb8f3bb4732.js?v=2ea6ecfcddb8f3bb4732 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861626
+GET /user/iseki/lab/extensions/@jupyter-widgets/jupyterlab-manager/static/134.402424ef4079078b2e0e.js?v=402424ef4079078b2e0e HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861627
+GET /user/iseki/lab/extensions/@jupyter-widgets/jupyterlab-manager/static/965.b0caf50c6bbde92efb37.js?v=b0caf50c6bbde92efb37 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861621
+GET /user/iseki/lab/extensions/@jupyter-widgets/jupyterlab-manager/static/113.270dbb43db912c1b3723.js?v=270dbb43db912c1b3723 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861620
+GET /user/iseki/lab/extensions/@jupyter-widgets/jupyterlab-manager/static/644.7d1bff49f8e38fac4070.js?v=7d1bff49f8e38fac4070 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861623
+GET /user/iseki/lab/extensions/@jupyter-widgets/jupyterlab-manager/static/150.1a6d6a3a0542a41bec5a.js?v=1a6d6a3a0542a41bec5a HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861624
+GET /user/iseki/lab/extensions/@jupyter-widgets/jupyterlab-manager/static/595.b7741b41fd98f8f3d844.js?v=b7741b41fd98f8f3d844 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861628
+GET /user/iseki/api/kernelspecs?1686722295589 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861629
+GET /user/iseki/api/me?1686722295589 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861630
+GET /user/iseki/lab/api/settings?1686722295594 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861634
+GET /user/iseki/api/events/subscribe?token=goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Sec-WebSocket-Version: 13
+Origin: https://castor5.nsl.tuis.ac.jp:8100
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: PMwas19/M+tmJHRcHGWbqg==
+Connection: keep-alive, Upgrade
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861631
+GET /user/iseki/api/kernels?1686722295597 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861633
+GET /user/iseki/api/sessions?1686722295597 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861632
+GET /user/iseki/api/terminals?1686722295597 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861635
+GET /user/iseki/api/kernelspecs?1686722295746 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861636
+GET /user/iseki/api/me?1686722295750 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861642
+GET /user/iseki/lab/api/translations/ja_JP?1686722296934 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861643
+GET /user/iseki/api/config/jupyterlabapputilsextensionannouncements?1686722297020 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861644
+GET /user/iseki/lab/api/build?1686722297056 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861653
+GET /user/iseki/lsp/status?1686722297111 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861654
+GET /user/iseki/lab/api/translations?1686722297137 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861655
+GET /user/iseki/api/contents?content=1&1686722297143 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861657
+GET /user/iseki/lab/api/settings/@jupyterlab/codemirror-extension:plugin?1686722297190 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861658
+GET /user/iseki/lab/api/themes/@jupyterlab/theme-dark-extension/index.css HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861659
+GET /user/iseki/lab/api/settings/@jupyterlab/notebook-extension:panel?1686722297190 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861666
+GET /user/iseki/lab/api/workspaces/default?1686722297220 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861668
+GET /user/iseki/api/contents?content=1&1686722297249 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861670
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861671
+GET /user/iseki/api/nbconvert?1686722297310 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861672
+GET /user/iseki/lab/api/settings?ids_only=true&1686722297330 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861673
+GET /user/iseki/lab/api/update?1686722297331 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861674
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861677
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861678
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861680
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861684
+GET /user/iseki/api/sessions?1686722297675 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861679
+ \»Ûc
+=CC================================================================================= 1861695
+GET /user/iseki/api/sessions?1686722297723 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861696
+GET /user/iseki/api/kernels/13564541-aebf-4da2-91eb-4ff225d11bff/channels?session_id=5c2ca5f9-fb93-4072-91eb-15c2cc23d276 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Sec-WebSocket-Version: 13
+Origin: https://castor5.nsl.tuis.ac.jp:8100
+Sec-WebSocket-Protocol: v1.kernel.websocket.jupyter.org
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: TtiyNpYozYgOWdbFSjjwWw==
+Connection: keep-alive, Upgrade
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861697
+PATCH /user/iseki/api/sessions/3a6d5634-d1b4-4ca7-85b0-45823985fba7?1686722297772 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Content-Type: text/plain;charset=UTF-8
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Length: 95
+Origin: https://castor5.nsl.tuis.ac.jp:8100
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861699
+GET /user/iseki/api/kernels?1686722297780 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861698
+PATCH /user/iseki/api/sessions/3a6d5634-d1b4-4ca7-85b0-45823985fba7?1686722297789 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Content-Type: text/plain;charset=UTF-8
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Length: 74
+Origin: https://castor5.nsl.tuis.ac.jp:8100
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861701
+GET /user/iseki/api/sessions?1686722297789 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861702
+GET /user/iseki/api/kernelspecs?1686722297809 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861696
+Ç˛é˜=é˜=é˜=(é˜=é˜=-é˜=é˜=è˜=é˜=è˜=é˜=è˜=é˜=è˜=é˜=cÊíQ|ı’Yq˙í*¨≈"Ω⁄&£∆	Dæ¬%∂Õ(†ƒ	)‘’2„ÑZOÁì*¨ŒvÍœX"∂⁄[uÎñ$∑«=∑ïXu£Œ æ≈_q∫î[#Ë’2„ÑZO˙éMu¨Õ{ÎÖSu‚®T~ËòbbÎÜHu˝É<¨ÑXc˝ûR~¨Õ%Ì≈^qªë=Ëï#£√'º⁄!Îï!ªîsÌ≈tº¿2¢’HcÎÖSq„í*¨’2¯íOcÁòS2¥’>º’@kÛå@kÛ
+KIND = 82, datasz = 270
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+00 01 00 00 00 00 00 00 
+02 01 00 00 00 00 00 00 
+04 01 00 00 00 00 00 00 
+06 01 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 31 
+38 2e 33 34 39 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 39 39 66 64 38 65 
+32 38 2d 66 65 65 61 2d 
+34 39 30 33 2d 39 62 65 
+65 2d 39 35 30 30 32 62 
+61 34 63 66 33 66 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 6b 65 72 6e 
+65 6c 5f 69 6e 66 6f 5f 
+72 65 71 75 65 73 74 22 
+2c 22 73 65 73 73 69 6f 
+6e 22 3a 22 35 63 32 63 
+61 35 66 39 2d 66 62 39 
+33 2d 34 30 37 32 2d 39 
+31 65 62 2d 31 35 63 32 
+63 63 32 33 64 32 37 36 
+22 2c 22 75 73 65 72 6e 
+61 6d 65 22 3a 22 22 2c 
+22 76 65 72 73 69 6f 6e 
+22 3a 22 35 2e 32 22 7d 
+7b 7d 7b 7d 7b 7d 
+shell{"date":"2023-06-14T05:58:18.349Z","msg_id":"99fd8e28-feea-4903-9bee-95002ba4cf3f","msg_type":"kernel_info_request","session":"5c2ca5f9-fb93-4072-91eb-15c2cc23d276","username":"","version":"5.2"}{}{}{}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861696
+{
+    "date": "2023-06-14T05:58:18.349Z",
+    "msg_id": "99fd8e28-feea-4903-9bee-95002ba4cf3f",
+    "msg_type": "kernel_info_request",
+    "session": "5c2ca5f9-fb93-4072-91eb-15c2cc23d276",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{}
+{}
+
+=CC================================================================================= 1861719
+GET /user/iseki/api/kernels/13564541-aebf-4da2-91eb-4ff225d11bff/channels?session_id=32c996cc-e7bc-4717-9233-46ed818122cd HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Sec-WebSocket-Version: 13
+Origin: https://castor5.nsl.tuis.ac.jp:8100
+Sec-WebSocket-Protocol: v1.kernel.websocket.jupyter.org
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: +7AKU2SuC8tVwh1STimzpQ==
+Connection: keep-alive, Upgrade
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861696
+àÄuâa
+=CC================================================================================= 1861720
+GET /user/iseki/api/kernels/13564541-aebf-4da2-91eb-4ff225d11bff/channels?session_id=b31741a2-e057-4e46-8538-a4a29d116c11 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Sec-WebSocket-Version: 13
+Origin: https://castor5.nsl.tuis.ac.jp:8100
+Sec-WebSocket-Protocol: v1.kernel.websocket.jupyter.org
+Sec-WebSocket-Extensions: permessage-deflate
+Sec-WebSocket-Key: uwaboCvzRaUg+UEu0o8dDA==
+Connection: keep-alive, Upgrade
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861719
+Ç˛∆·îA¿·îA∆·îA˛·îA∆·îA˚·îA∆·îA∆‡îA∆·îAƒ‡îA∆·îA¬‡îA∆·îA¿‡îA∆·îAµâÒ-™ö∂%ßïÒc¸√¶qÙ“πqÃ•uí—°{ÛŸÆp˛œßyıª∂m‰åÁ&ôàc¸√£wÒÿ¶t§áπq£—§lÚ–†#ÎÉß#ˇÃ≠#ˇŸ¨#˜Ö#ˆÖ∂m‰åÁ&ôïÌ1£√Æc≠ÑÊ/£çÀ(®á˚¥ÑÂ4£í‡cÍ√Á$µí˝.®√Æcı”˜xˇ◊˜"ÎÑ£#•Ã†v˜÷πxÙ“ßlÚ◊Ò%˛–¨pÙ”˜%‰Õ∂4µÑÊ/ßåÒc¸√∂m‰óÒ3µà˚/‰€∂tË”∂<ΩúÔ<Ωú
+KIND = 82, datasz = 270
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+00 01 00 00 00 00 00 00 
+02 01 00 00 00 00 00 00 
+04 01 00 00 00 00 00 00 
+06 01 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 31 
+38 2e 33 38 33 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 37 36 37 39 32 35 
+62 66 2d 30 65 30 30 2d 
+34 31 34 62 2d 62 33 62 
+39 2d 39 62 39 38 38 62 
+31 64 64 62 30 64 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 6b 65 72 6e 
+65 6c 5f 69 6e 66 6f 5f 
+72 65 71 75 65 73 74 22 
+2c 22 73 65 73 73 69 6f 
+6e 22 3a 22 33 32 63 39 
+39 36 63 63 2d 65 37 62 
+63 2d 34 37 31 37 2d 39 
+32 33 33 2d 34 36 65 64 
+38 31 38 31 32 32 63 64 
+22 2c 22 75 73 65 72 6e 
+61 6d 65 22 3a 22 22 2c 
+22 76 65 72 73 69 6f 6e 
+22 3a 22 35 2e 32 22 7d 
+7b 7d 7b 7d 7b 7d 
+shell{"date":"2023-06-14T05:58:18.383Z","msg_id":"767925bf-0e00-414b-b3b9-9b988b1ddb0d","msg_type":"kernel_info_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{}{}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:18.383Z",
+    "msg_id": "767925bf-0e00-414b-b3b9-9b988b1ddb0d",
+    "msg_type": "kernel_info_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{}
+{}
+
+=CC================================================================================= 1861703
+GET /user/iseki/api/sessions?1686722298382 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861700
+GET /user/iseki/api/kernels?1686722298383 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861719
+Ç˛0÷>DH–>DH÷>DHÓ>DH÷>DHÈ>DH÷>DH*>DH÷>DH(>DH÷>DH÷?DH÷>DHÊ?DH÷>DHµQ*<§Q(3ÙZ%<≥~j‰v{˚reÁ
+x„qpÏsfÓ}Ùf%•Y!≤~j‡_t}‡&˚|,≥pp∞[ip∑!e∞ zµ\w-·
+r+Ùf%•Y<ØN!jÏ -¥K#§[5=≥M0j˙7-•M-'∏~jÂ'qÔ'+˚[s*µpÁ	iq‰we‚!,Ó|y‰',Ùf=•[6&∑S!jÏfdÙH!:•W+&Ùf}¯f5≠C?5≠01¶[frÙL!9£[7<Ùf;≥OfrÊf+πS))∏ZfrÙZ!*£Y&∞Qf5
+KIND = 82, datasz = 312
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3f 00 00 00 00 00 00 00 
+fc 00 00 00 00 00 00 00 
+fe 00 00 00 00 00 00 00 
+00 01 00 00 00 00 00 00 
+30 01 00 00 00 00 00 00 
+63 6f 6e 74 72 6f 6c 7b 
+22 64 61 74 65 22 3a 22 
+32 30 32 33 2d 30 36 2d 
+31 34 54 30 35 3a 35 38 
+3a 31 37 2e 38 32 39 5a 
+22 2c 22 6d 73 67 5f 69 
+64 22 3a 22 36 61 30 35 
+36 35 62 37 2d 32 38 64 
+65 2d 34 38 66 65 2d 38 
+61 30 65 2d 66 35 64 32 
+63 62 33 65 37 34 36 63 
+22 2c 22 6d 73 67 5f 74 
+79 70 65 22 3a 22 64 65 
+62 75 67 5f 72 65 71 75 
+65 73 74 22 2c 22 73 65 
+73 73 69 6f 6e 22 3a 22 
+33 32 63 39 39 36 63 63 
+2d 65 37 62 63 2d 34 37 
+31 37 2d 39 32 33 33 2d 
+34 36 65 64 38 31 38 31 
+32 32 63 64 22 2c 22 75 
+73 65 72 6e 61 6d 65 22 
+3a 22 22 2c 22 76 65 72 
+73 69 6f 6e 22 3a 22 35 
+2e 32 22 7d 7b 7d 7b 7d 
+7b 22 74 79 70 65 22 3a 
+22 72 65 71 75 65 73 74 
+22 2c 22 73 65 71 22 3a 
+30 2c 22 63 6f 6d 6d 61 
+6e 64 22 3a 22 64 65 62 
+75 67 49 6e 66 6f 22 7d 
+
+control{"date":"2023-06-14T05:58:17.829Z","msg_id":"6a0565b7-28de-48fe-8a0e-f5d2cb3e746c","msg_type":"debug_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{}{"type":"request","seq":0,"command":"debugInfo"}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:17.829Z",
+    "msg_id": "6a0565b7-28de-48fe-8a0e-f5d2cb3e746c",
+    "msg_type": "debug_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{}
+{
+    "type": "request",
+    "seq": 0,
+    "command": "debugInfo"
+}
+
+=CC================================================================================= 1861719
+Ç˛n›yı€yı›yıÂyı›yı‡yı›yı+yı›yı%yı›yı÷xı›yı≥xı›yıÆzô±=ëºz◊Á[-≈ÔJ2≈ÎT.¡âI*œËA%ƒÂW,ÕÓ#=ŸˇlíÇ{◊Á[&ÕÌ+¿Ë2¡øH-ÿÈ,∆*êπT+óÍ,∆Ì|√ÈI=ŸˇlíÇfÖ∏[%◊æròÇoê≥[3◊ÆlÜ¥q◊Á[,«æ@&√æ2êÍ|ÿÈN.¬@-∆ÓT+√∏'ƒÂH-«æ=ŸˇlêØ~ò∏[%◊ˇU=É∏lú≤=œˇL1«ˇdà¶[iêØ
+vö≥[%◊ÏW/€Ì[béˇpò∞&vëˇC=≈øyƒÎOzÿø&∆M}ìÈT}ƒÔ2¡ª*ë‰*√ËH/◊Ò[kîØzÅÇ~ò∏[%◊∑oå©m€™{í∏1ñ≤ká≤=Ÿˇ~Åº[%é†
+KIND = 82, datasz = 374
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+f6 00 00 00 00 00 00 00 
+f8 00 00 00 00 00 00 00 
+0b 01 00 00 00 00 00 00 
+6e 01 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 31 
+38 2e 33 38 33 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 39 38 30 61 34 35 
+35 65 2d 34 62 31 32 2d 
+34 63 33 33 2d 62 35 65 
+64 2d 34 62 37 65 33 33 
+30 65 63 36 34 30 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 63 6f 6d 6d 
+5f 6f 70 65 6e 22 2c 22 
+73 65 73 73 69 6f 6e 22 
+3a 22 33 32 63 39 39 36 
+63 63 2d 65 37 62 63 2d 
+34 37 31 37 2d 39 32 33 
+33 2d 34 36 65 64 38 31 
+38 31 32 32 63 64 22 2c 
+22 75 73 65 72 6e 61 6d 
+65 22 3a 22 22 2c 22 76 
+65 72 73 69 6f 6e 22 3a 
+22 35 2e 32 22 7d 7b 7d 
+7b 22 76 65 72 73 69 6f 
+6e 22 3a 22 31 2e 30 2e 
+30 22 7d 7b 22 63 6f 6d 
+6d 5f 69 64 22 3a 22 30 
+62 63 66 31 36 36 65 2d 
+62 65 39 33 2d 34 62 66 
+34 2d 62 31 32 65 2d 34 
+66 65 35 64 39 65 35 36 
+35 31 30 22 2c 22 74 61 
+72 67 65 74 5f 6e 61 6d 
+65 22 3a 22 6a 75 70 79 
+74 65 72 2e 77 69 64 67 
+65 74 2e 63 6f 6e 74 72 
+6f 6c 22 2c 22 64 61 74 
+61 22 3a 7b 7d 7d 
+shell{"date":"2023-06-14T05:58:18.383Z","msg_id":"980a455e-4b12-4c33-b5ed-4b7e330ec640","msg_type":"comm_open","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{"version":"1.0.0"}{"comm_id":"0bcf166e-be93-4bf4-b12e-4fe5d9e56510","target_name":"jupyter.widget.control","data":{}}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:18.383Z",
+    "msg_id": "980a455e-4b12-4c33-b5ed-4b7e330ec640",
+    "msg_type": "comm_open",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{
+    "version": "1.0.0"
+}
+{
+    "comm_id": "0bcf166e-be93-4bf4-b12e-4fe5d9e56510",
+    "target_name": "jupyter.widget.control",
+    "data": {}
+}
+
+=CC================================================================================= 1861719
+Ç˛N6í=¯0í=¯6í=¯í=¯6í=¯í=¯6í=¯√í=¯6í=¯¡í=¯6í=¯œí=¯6í=¯xì=¯6í=¯E˙XîZÈúWÊX⁄∞»°»
+KIND = 82, datasz = 342
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+f5 00 00 00 00 00 00 00 
+f7 00 00 00 00 00 00 00 
+f9 00 00 00 00 00 00 00 
+4e 01 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 31 
+38 2e 33 38 33 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 38 35 39 32 62 64 
+64 35 2d 31 35 65 36 2d 
+34 36 65 37 2d 61 66 30 
+30 2d 64 36 65 66 33 37 
+32 31 33 65 37 36 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 63 6f 6d 6d 
+5f 6d 73 67 22 2c 22 73 
+65 73 73 69 6f 6e 22 3a 
+22 33 32 63 39 39 36 63 
+63 2d 65 37 62 63 2d 34 
+37 31 37 2d 39 32 33 33 
+2d 34 36 65 64 38 31 38 
+31 32 32 63 64 22 2c 22 
+75 73 65 72 6e 61 6d 65 
+22 3a 22 22 2c 22 76 65 
+72 73 69 6f 6e 22 3a 22 
+35 2e 32 22 7d 7b 7d 7b 
+7d 7b 22 63 6f 6d 6d 5f 
+69 64 22 3a 22 30 62 63 
+66 31 36 36 65 2d 62 65 
+39 33 2d 34 62 66 34 2d 
+62 31 32 65 2d 34 66 65 
+35 64 39 65 35 36 35 31 
+30 22 2c 22 64 61 74 61 
+22 3a 7b 22 6d 65 74 68 
+6f 64 22 3a 22 72 65 71 
+75 65 73 74 5f 73 74 61 
+74 65 73 22 7d 7d 
+shell{"date":"2023-06-14T05:58:18.383Z","msg_id":"8592bdd5-15e6-46e7-af00-d6ef37213e76","msg_type":"comm_msg","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{}{"comm_id":"0bcf166e-be93-4bf4-b12e-4fe5d9e56510","data":{"method":"request_states"}}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:18.383Z",
+    "msg_id": "8592bdd5-15e6-46e7-af00-d6ef37213e76",
+    "msg_type": "comm_msg",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{}
+{
+    "comm_id": "0bcf166e-be93-4bf4-b12e-4fe5d9e56510",
+    "data": {
+        "method": "request_states"
+    }
+}
+
+=CC================================================================================= 1861721
+PUT /user/iseki/lab/api/workspaces/default?1686722298406 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Content-Type: text/plain;charset=UTF-8
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Length: 876
+Origin: https://castor5.nsl.tuis.ac.jp:8100
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861719
+Ç˛"@≈ùF≈ù@≈ùx≈ù@≈ù}≈ù@≈ùæ≈ù@≈ù@ƒù@≈ùBƒù@≈ùbƒù@≈ù3≠wÒ,æ0˘!±wøzÁ ≠rˆ?≠vË#©ı'ßu˝(¨xÎ&Øvü0±b®a˙¨vøzÁw¨yˆtÆ$Û?ˇ$ˆ*∞t˝'˘m˝+®pË$˚x§v≠y†+´u˝0±b®a˙±kÌ%Á(ø#™¨|˚/ö`¯1∞wÓ4Á>ø3†aÓ)™|øzÁ!Ø#¸+´#¶?¯wßq∞tÚ#™m¸ ÆsË&´%°*¨xÙ Ø#°0±b∞a¯2´s%Á(øbÈ0Î%∑aÙ/´0ßb<Øb∏i‡;∏iø4§`˙%±MÛ!®wøzÁxË0ºf¯2ÎeÙ$¢wÈb∏
+KIND = 82, datasz = 298
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+fe 00 00 00 00 00 00 00 
+00 01 00 00 00 00 00 00 
+02 01 00 00 00 00 00 00 
+22 01 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 31 
+38 2e 34 32 36 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 65 31 39 33 66 33 
+64 36 2d 62 64 33 38 2d 
+34 38 35 64 2d 38 39 35 
+30 2d 36 66 38 61 64 30 
+39 65 39 36 35 38 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 63 6f 6d 6d 
+5f 69 6e 66 6f 5f 72 65 
+71 75 65 73 74 22 2c 22 
+73 65 73 73 69 6f 6e 22 
+3a 22 33 32 63 39 39 36 
+63 63 2d 65 37 62 63 2d 
+34 37 31 37 2d 39 32 33 
+33 2d 34 36 65 64 38 31 
+38 31 
+=CC================================================================================= 1861720
+32 32 63 64 Ç˛A7RG7RA7Ry7RA7R|7RA7RA6RA7RC6RA7RE6RA7RG6RA7R2_7z-Lpr C74{`&s&wc"g,th'yf$wmp:cZ!q^64{4p%Rf rU# 1;ubplU`u$c!"Rc'sSb'sp:cZ!qC+f$h4*R x$[/Q=I3R#c$D&4m!s2D;y/h4#c!u3$lRb#vfsu.tj; 3$xSc'wTc'cpc2R x Z74{p:cA7d2^=xcp#opk:J)k:J22 2c 
+22 75 73 65 72 6e 61 6d 
+65 22 3a 22 22 2c 22 76 
+65 72 73 69 6f 6e 22 3a 
+22 35 2e 32 22 7d 7b 7d 
+7b 7d 7b 22 74 61 72 67 
+
+KIND = 82, datasz = 270
+65 74 5f 6e 61 6d 65 22 
+3a 
+----------------
+22 6a 75 70 79 06 74 00 65 00 
+00 72 00 2e 00 77 00 69 00 64 67 
+65 38 74 00 
+00 22 00 7d 00 
+00 shell{"date":"2023-06-14T05:58:18.426Z","msg_id":"e193f3d6-bd38-485d-8950-6f8ad09e9658","msg_type":"comm_info_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{}{"target_name":"jupyter.widget"}
+00 00 
+3d 00 00 
+KIND = 00, datasz = 0
+00 
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+00 00 00 {
+    "date": "2023-06-14T05:58:18.426Z",
+    "msg_id": "e193f3d6-bd38-485d-8950-6f8ad09e9658",
+    "msg_type": "comm_info_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{}
+{
+    "target_name": "jupyter.widget"
+}
+00 
+00 01 00 00 00 00 00 00 
+02 01 00 00 00 00 00 00 
+04 01 00 00 00 00 00 00 
+06 01 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 31 
+38 2e 34 32 36 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 66 66 64 65 34 36 
+33 62 2d 35 61 39 63 2d 
+34 34 30 66 2d 62 32 63 
+65 2d 31 37 63 65 31 31 
+32 64 30 31 32 38 
+=CC================================================================================= 1861719
+22 Ç˛?{>QR}>QR{>QRC>QR{>QRD>QR{>QRá>QR{>QRÖ>QR{>QR{?QR{>QRD?QR{>QRQ?&	Q=)YZ0&kpIcaVgJ
+bNdjAi|OgYs?Y;kpNhjH2eV23He`H|kBi\5f\33O_3cYs?Y&N4pA57K6	[ 'M0x161b010W"7M8=kpH2kB21V[f0eeJ	|kIbO46CicI26Ys'[#<S4pAs~YH4 W><YsgUs/2c 
+KIND = 82, datasz = 327
+
+
+----------------
+22 06 6d 00 73 00 67 00 5f 00 74 00 79 00 70 00 
+
+65 38 22 00 3a 00 22 00 6b 00 65 00 72 00 6e 00 
+
+65 3f 6c 00 5f 00 69 00 6e 00 66 00 6f 00 5f 00 
+
+72 fc 65 00 71 00 75 00 65 00 73 00 74 00 22 00 
+
+2c fe 22 00 73 00 65 00 73 00 73 00 69 00 6f 00 
+
+6e 00 22 01 3a 00 22 00 62 00 33 00 31 00 37 00 
+
+34 3f 31 01 61 00 32 00 2d 00 65 00 30 00 35 00 
+
+37 63 2d 6f 34 6e 65 74 34 72 36 6f 2d 6c 38 7b 
+
+35 22 33 64 38 61 2d 74 61 65 34 22 61 3a 32 22 
+
+39 32 64 30 31 32 31 33 36 2d 63 30 31 36 31 2d 
+
+22 31 2c 34 22 54 75 30 73 35 65 3a 72 35 6e 38 
+
+61 3a 6d 31 65 38 22 2e 3a 34 22 32 22 36 2c 5a 
+
+22 22 76 2c 65 22 72 6d 73 73 69 67 6f 5f 6e 69 
+
+22 64 3a 22 22 3a 35 22 2e 35 32 32 22 39 7d 38 
+
+7b 33 7d 39 7b 63 7d 37 7b 2d 7d 33 
+63 61 shell{"date":"2023-06-14T05:58:18.426Z","msg_id":"ffde463b-5a9c-440f-b2ce-17ce112d0128","msg_type":"kernel_info_request","session":"b31741a2-e057-4e46-8538-a4a29d116c11","username":"","version":"5.2"}{}{}{}
+
+33 2d 34 32 33 33 2d 39 
+39 31 38 2d 66 62 64 34 
+62 62 62 61 34 61 62 31 
+22 2c 22 
+KIND = 00, datasz = 0
+6d 73 67 
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861720
+5f 74 
+79 70 65 22 3a 22 64 65 
+{
+    "date": "2023-06-14T05:58:18.426Z",
+    "msg_id": "ffde463b-5a9c-440f-b2ce-17ce112d0128",
+    "msg_type": "kernel_info_request",
+    "session": "b31741a2-e057-4e46-8538-a4a29d116c11",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{}
+{}
+62 75 67 5f 72 65 71 75 
+65 73 74 22 2c 22 73 65 
+73 73 69 6f 6e 22 3a 22 
+33 32 63 39 39 36 63 63 
+2d 65 37 62 63 2d 34 37 
+31 37 2d 39 32 33 33 2d 
+34 36 65 64 38 31 38 31 
+32 32 63 64 22 2c 22 75 
+73 65 72 6e 61 6d 65 22 
+3a 22 22 2c 22 76 65 72 
+73 69 6f 6e 22 3a 22 35 
+2e 32 22 7d 7b 7d 7b 7d 
+7b 22 74 79 70 65 22 3a 
+22 72 65 71 75 65 73 74 
+22 2c 22 73 65 71 22 3a 
+30 2c 22 63 6f 6d 6d 61 
+6e 64 22 3a 22 64 65 62 
+75 67 49 6e 66 6f 22 2c 
+22 61 72 67 75 6d 65 6e 
+74 73 22 3a 7b 7d 7d 
+control{"date":"2023-06-14T05:58:18.426Z","msg_id":"529839c7-3ca3-4233-9918-fbd4bbba4ab1","msg_type":"debug_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{}{"type":"request","seq":0,"command":"debugInfo","arguments":{}}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:18.426Z",
+    "msg_id": "529839c7-3ca3-4233-9918-fbd4bbba4ab1",
+    "msg_type": "debug_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{}
+{
+    "type": "request",
+    "seq": 0,
+    "command": "debugInfo",
+    "arguments": {}
+}
+
+=CC================================================================================= 1861719
+Ç˛0≤ÿe˜¥ÿe˜≤ÿe˜äÿe˜≤ÿe˜çÿe˜≤ÿe˜Nÿe˜≤ÿe˜Lÿe˜≤ÿe˜≤Ÿe˜≤ÿe˜ÇŸe˜≤ÿe˜—∑É¿∑	åêºÉ◊˙_’ÄËWƒüËS⁄ÉÏ1«á‚PœàÈ]ŸáÈR≠êÙGö¡ø:û÷˙_’‘·ñÜπ∆ü·Qì‘ıQ¿÷ÍHñÄ‡P⁄Ö‡«—ËQœ–Ó¬êÙGö¡ø:ÉÀ®
+KIND = 82, datasz = 312
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3f 00 00 00 00 00 00 00 
+fc 00 00 00 00 00 00 00 
+fe 00 00 00 00 00 00 00 
+00 01 00 00 00 00 00 00 
+30 01 00 00 00 00 00 00 
+63 6f 6e 74 72 6f 6c 7b 
+22 64 61 74 65 22 3a 22 
+32 30 32 33 2d 30 36 2d 
+31 34 54 30 35 3a 35 38 
+3a 31 38 2e 35 31 37 5a 
+22 2c 22 6d 73 67 5f 69 
+64 22 3a 22 66 39 61 61 
+34 61 62 31 2d 39 34 64 
+66 2d 34 37 64 32 2d 61 
+32 38 35 2d 37 38 64 30 
+63 30 34 38 62 36 62 35 
+22 2c 22 6d 73 67 5f 74 
+79 70 65 22 3a 22 64 65 
+62 75 67 5f 72 65 71 75 
+65 73 74 22 2c 22 73 65 
+73 73 69 6f 6e 22 3a 22 
+33 32 63 39 39 36 63 63 
+2d 65 37 62 63 2d 34 37 
+31 37 2d 39 32 33 33 2d 
+34 36 65 64 38 31 38 31 
+32 32 63 64 22 2c 22 75 
+73 65 72 6e 61 6d 65 22 
+3a 22 22 2c 22 76 65 72 
+73 69 6f 6e 22 3a 22 35 
+2e 32 22 7d 7b 7d 7b 7d 
+7b 22 74 79 70 65 22 3a 
+22 72 65 71 75 65 73 74 
+22 2c 22 73 65 71 22 3a 
+30 2c 22 63 6f 6d 6d 61 
+6e 64 22 3a 22 64 65 62 
+75 67 49 6e 66 6f 22 7d 
+
+control{"date":"2023-06-14T05:58:18.517Z","msg_id":"f9aa4ab1-94df-47d2-a285-78d0c048b6b5","msg_type":"debug_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{}{"type":"request","seq":0,"command":"debugInfo"}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:18.517Z",
+    "msg_id": "f9aa4ab1-94df-47d2-a285-78d0c048b6b5",
+    "msg_type": "debug_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{}
+{
+    "type": "request",
+    "seq": 0,
+    "command": "debugInfo"
+}
+
+=CC================================================================================= 1861720
+àÄúHı0
+=CC================================================================================= 1861722
+GET /user/iseki/api/contents?content=1&1686722298515 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861723
+GET /user/iseki/api/sessions?1686722298519 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861724
+GET /user/iseki/api/kernels?1686722298519 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861726
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861728
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861719
+Ç˛?.ù˝(ù˝.ù˝ù˝.ù˝ù˝.ù˝“ù˝.ù˝–ù˝.ù˝.ú˝.ù˝ú˝.ù˝MÚìi\Úëf˘úiKø«?≠œ.≠À0©©-ß»%¨≈3§ G±ﬂp]˙¢tJø«?˘…{•ŒØ…∞…yO™–$M˘»0§Œ§À.L®Àx±ﬂp]˙¢iWÌò?øôxLËöB\¯åhKÓâ?øéx]Óîr@ø«?Øû$´û~¯ M∞…*™–$ÆŒ0´òy¨≈,Øûy±ﬂh]¯èsOò?øﬂ1Îòo]Ùísßﬂ(
+KIND = 82, datasz = 327
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3f 00 00 00 00 00 00 00 
+fc 00 00 00 00 00 00 00 
+fe 00 00 00 00 00 00 00 
+00 01 00 00 00 00 00 00 
+3f 01 00 00 00 00 00 00 
+63 6f 6e 74 72 6f 6c 7b 
+22 64 61 74 65 22 3a 22 
+32 30 32 33 2d 30 36 2d 
+31 34 54 30 35 3a 35 38 
+3a 31 38 2e 35 39 37 5a 
+22 2c 22 6d 73 67 5f 69 
+64 22 3a 22 39 64 34 66 
+37 38 33 62 2d 32 34 62 
+36 2d 34 64 61 37 2d 39 
+63 64 35 2d 33 39 33 62 
+31 39 36 33 62 35 36 65 
+22 2c 22 6d 73 67 5f 74 
+79 70 65 22 3a 22 64 65 
+62 75 67 5f 72 65 71 75 
+65 73 74 22 2c 22 73 65 
+73 73 69 6f 6e 22 3a 22 
+33 32 63 39 39 36 63 63 
+2d 65 37 62 63 2d 34 37 
+31 37 2d 39 32 33 33 2d 
+34 36 65 64 38 31 38 31 
+32 32 63 64 22 2c 22 75 
+73 65 72 6e 61 6d 65 22 
+3a 22 22 2c 22 76 65 72 
+73 69 6f 6e 22 3a 22 35 
+2e 32 22 7d 7b 7d 7b 7d 
+7b 22 74 79 70 65 22 3a 
+22 72 65 71 75 65 73 74 
+22 2c 22 73 65 71 22 3a 
+31 2c 22 63 6f 6d 6d 61 
+6e 64 22 3a 22 64 65 62 
+75 67 49 6e 66 6f 22 2c 
+22 61 72 67 75 6d 65 6e 
+74 73 22 3a 7b 7d 7d 
+control{"date":"2023-06-14T05:58:18.597Z","msg_id":"9d4f783b-24b6-4da7-9cd5-393b1963b56e","msg_type":"debug_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{}{"type":"request","seq":1,"command":"debugInfo","arguments":{}}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:18.597Z",
+    "msg_id": "9d4f783b-24b6-4da7-9cd5-393b1963b56e",
+    "msg_type": "debug_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{}
+{
+    "type": "request",
+    "seq": 1,
+    "command": "debugInfo",
+    "arguments": {}
+}
+
+=CC================================================================================= 1861730
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861732
+PUT /user/iseki/lab/api/workspaces/default?1686722299115 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Content-Type: text/plain;charset=UTF-8
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Length: 876
+Origin: https://castor5.nsl.tuis.ac.jp:8100
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861719
+Ç˛©n‡rvh‡rvn‡rvV‡rvn‡rvS‡rvn‡rví‡rvn‡rvê‡rvn‡rv|‚rvn‡rv«‚rvn‡rvàõPîTT¬@F\”_FXÕCB:–GL[ÿHGWŒFC_∫PZLç1âTT¬KC[Ñ\Å_OY—F[Z◊FOCÿ@ÕÉG”J◊PZLç1î¬HTòî)ÖìTB¬ì
+KIND = 82, datasz = 689
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+fc 00 00 00 00 00 00 00 
+fe 00 00 00 00 00 00 00 
+12 02 00 00 00 00 00 00 
+a9 02 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 31 
+39 2e 34 35 31 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 39 35 35 64 65 61 
+32 61 2d 39 37 31 34 2d 
+34 37 34 39 2d 38 32 65 
+62 2d 63 62 61 63 64 31 
+66 33 38 63 65 37 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 65 78 65 63 
+75 74 65 5f 72 65 71 75 
+65 73 74 22 2c 22 73 65 
+73 73 69 6f 6e 22 3a 22 
+33 32 63 39 39 36 63 63 
+2d 65 37 62 63 2d 34 37 
+31 37 2d 39 32 33 33 2d 
+34 36 65 64 38 31 38 31 
+32 32 63 64 22 2c 22 75 
+73 65 72 6e 61 6d 65 22 
+3a 22 22 2c 22 76 65 72 
+73 69 6f 6e 22 3a 22 35 
+2e 32 22 7d 7b 7d 7b 22 
+74 61 67 73 22 3a 5b 22 
+66 69 6c 65 6e 61 6d 65 
+3a 20 e7 ac ac 36 e5 9b 
+9e e6 bc 94 e7 bf 92 2e 
+69 70 79 6e 62 22 2c 22 
+63 6f 64 65 6e 75 6d 3a 
+20 31 22 5d 2c 22 52 54 
+4c 22 3a 7b 22 75 75 69 
+64 22 3a 22 35 35 64 63 
+35 65 30 30 2d 65 63 38 
+31 2d 32 61 62 63 2d 30 
+30 36 66 2d 65 62 63 63 
+65 37 35 64 36 31 30 33 
+22 2c 22 64 69 73 70 6c 
+61 79 49 64 22 3a 22 31 
+22 2c 22 64 69 73 70 6c 
+61 79 4e 61 6d 65 22 3a 
+22 31 22 2c 22 6a 75 64 
+67 65 22 3a 7b 22 64 61 
+74 61 22 3a 22 22 2c 22 
+74 79 70 65 22 3a 22 65 
+78 65 63 52 65 73 75 6c 
+74 22 7d 2c 22 74 61 72 
+67 65 74 43 65 6c 6c 22 
+3a 74 72 75 65 7d 2c 22 
+74 72 75 73 74 65 64 22 
+3a 66 61 6c 73 65 2c 22 
+64 65 6c 65 74 65 64 43 
+65 6c 6c 73 22 3a 5b 5d 
+2c 22 72 65 63 6f 72 64 
+54 69 6d 69 6e 67 22 3a 
+66 61 6c 73 65 2c 22 63 
+65 6c 6c 49 64 22 3a 22 
+31 66 32 63 63 36 36 66 
+22 7d 7b 22 73 69 6c 65 
+6e 74 22 3a 66 61 6c 73 
+65 2c 22 73 74 6f 72 65 
+5f 68 69 73 74 6f 72 79 
+22 3a 74 72 75 65 2c 22 
+75 73 65 72 5f 65 78 70 
+72 65 73 73 69 6f 6e 73 
+22 3a 7b 7d 2c 22 61 6c 
+6c 6f 77 5f 73 74 64 69 
+6e 22 3a 74 72 75 65 2c 
+22 73 74 6f 70 5f 6f 6e 
+5f 65 72 72 6f 72 22 3a 
+74 72 75 65 2c 22 63 6f 
+64 65 22 3a 22 6b 6f 6b 
+75 67 6f 20 3d 20 5b 39 
+30 2c 20 38 30 2c 20 38 
+35 2c 20 36 30 5d 5c 6e 
+5c 6e 70 72 69 6e 74 28 
+6b 6f 6b 75 67 6f 29 22 
+7d 
+shell{"date":"2023-06-14T05:58:19.451Z","msg_id":"955dea2a-9714-4749-82eb-cbacd1f38ce7","msg_type":"execute_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{"tags":["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 1"],"RTL":{"uuid":"55dc5e00-ec81-2abc-006f-ebcce75d6103","displayId":"1","displayName":"1","judge":{"data":"","type":"execResult"},"targetCell":true},"trusted":false,"deletedCells":[],"recordTiming":false,"cellId":"1f2cc66f"}{"silent":false,"store_history":true,"user_expressions":{},"allow_stdin":true,"stop_on_error":true,"code":"kokugo = [90, 80, 85, 60]\n\nprint(kokugo)"}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:19.451Z",
+    "msg_id": "955dea2a-9714-4749-82eb-cbacd1f38ce7",
+    "msg_type": "execute_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{
+    "tags": ["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 1"],
+    "RTL": {
+        "uuid": "55dc5e00-ec81-2abc-006f-ebcce75d6103",
+        "displayId": "1",
+        "displayName": "1",
+        "judge": {
+            "data": "",
+            "type": "execResult"
+        },
+        "targetCell": true
+    },
+    "trusted": false,
+    "deletedCells": [],
+    "recordTiming": false,
+    "cellId": "1f2cc66f"
+}
+{
+    "silent": false,
+    "store_history": true,
+    "user_expressions": {},
+    "allow_stdin": true,
+    "stop_on_error": true,
+    "code": "kokugo = [90, 80, 85, 60]\n\nprint(kokugo)"
+}
+
+=CC================================================================================= 1861778
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861719
+Ç˛•¶≠€Ø†≠€Ø¶≠€Øû≠€Ø¶≠€Øõ≠€Ø¶≠€ØZ≠€Ø¶≠€ØX≠€Ø¶≠€Ø¥Ø€Ø¶≠€ØØ€Ø¶≠€Ø’≈æ√ ÷˘À«ŸæçúèÈüîûˆüêÄÍõÚùÓïìï·ùîÉÎùí˜˘ÉÑ¿®»˘ƒøçúèÌòûõÍúï…ˆÕüŒÏÇíùÌüãîΩùûÄ∫õëüË…√ùË…ìú˘ÉÑ¿®»˘Ÿ¢ﬂ√è·ç√’æÃ”Ÿæ‘»™⁄√ﬁØçäè® ’ﬁ≤¿»è·çïü∏ñüõ∏Ãã»ÏÕ≈ÄÔòóöˆñîûËÇíõæÀûú„ûîü∏ÀÑÅ˘⁄’»©¡«¿æçúè˘ÉÑ€æ›’ƒ¥¡Ñó˘öàü˘“›–†ç“Ãº‹ÑóÄç¿ƒ∑ »Ã∂ úç<
+õ>48Kg;AIÅœ›¢¡ƒè˜ç≈¬ø »ÿ∂ïÜü˘Úäèâ˚Íè·‘ÑÿÆ∆¬è·çñÀÏŒóö‚òãùÏùûÄÓüì…ˆÀïïÏÇûÀÏÀ√Œ∫ŒñœÎôÑÅ˘Àœﬁ´√«‘íÀÑó˘ùÑÅ˘Àœﬁ´√«‘ïŒÀ»˘ïÑü˘ÉÑ«ÆÀ¡»˘ï›èøŒ“Ã˘ïÑè˜ç“‘´ Ñó˘ ﬁ»∏˝√ﬁÆ√“è¶ÉÑŸ∫›¡»ØÏ√¡∑çúŸ©⁄√–˜ç“ﬂÆ‹“»øçúÀ∫√’»˜ç¬»∑ “»øÏ√¡∑‹ÑóÄÚäè© ≈¬©ÀÚƒ∂∆» ˘ï¿Ã∑‹√Å˘Ã√¡∑Ê¬è·çìŒÓñêü∫ûÑ–†ç’ƒ∑ »Ÿ˘ï¿Ã∑‹√Å˘‹“¬© ˘≈≤‹“¬©÷ÑóØ›”»˜ç”ﬁæ›˘»£ﬂ‘»®‹œ¬µ‹Ñó†“äè∫√ ¬¨’Ÿø∆»è·€‘ÿæÉÑﬁØ¿÷Ú¥¡˘»©›…ﬂ˘ï“ﬂÆ äè∏¿¬»˘ïÑ›©∆»ŸÛƒ…∆Æ»…ˆÎÚäç∞¿Õÿº¿˝úÜÉÜ∆¥ƒ” ¥ÙîÚç€
+KIND = 82, datasz = 685
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+fc 00 00 00 00 00 00 00 
+fe 00 00 00 00 00 00 00 
+12 02 00 00 00 00 00 00 
+a5 02 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 32 
+32 2e 30 32 34 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 36 37 38 36 31 33 
+33 64 2d 62 39 63 37 2d 
+34 30 36 30 2d 39 66 32 
+38 2d 61 34 37 32 33 66 
+65 30 33 66 35 31 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 65 78 65 63 
+75 74 65 5f 72 65 71 75 
+65 73 74 22 2c 22 73 65 
+73 73 69 6f 6e 22 3a 22 
+33 32 63 39 39 36 63 63 
+2d 65 37 62 63 2d 34 37 
+31 37 2d 39 32 33 33 2d 
+34 36 65 64 38 31 38 31 
+32 32 63 64 22 2c 22 75 
+73 65 72 6e 61 6d 65 22 
+3a 22 22 2c 22 76 65 72 
+73 69 6f 6e 22 3a 22 35 
+2e 32 22 7d 7b 7d 7b 22 
+74 61 67 73 22 3a 5b 22 
+66 69 6c 65 6e 61 6d 65 
+3a 20 e7 ac ac 36 e5 9b 
+9e e6 bc 94 e7 bf 92 2e 
+69 70 79 6e 62 22 2c 22 
+63 6f 64 65 6e 75 6d 3a 
+20 32 22 5d 2c 22 52 54 
+4c 22 3a 7b 22 75 75 69 
+64 22 3a 22 30 66 37 61 
+31 37 39 37 2d 30 37 32 
+38 2d 35 30 35 64 2d 64 
+33 38 37 2d 38 66 37 64 
+65 63 61 61 30 62 30 36 
+22 2c 22 64 69 73 70 6c 
+61 79 49 64 22 3a 22 32 
+22 2c 22 64 69 73 70 6c 
+61 79 4e 61 6d 65 22 3a 
+22 32 22 2c 22 6a 75 64 
+67 65 22 3a 7b 22 64 61 
+74 61 22 3a 22 22 2c 22 
+74 79 70 65 22 3a 22 65 
+78 65 63 52 65 73 75 6c 
+74 22 7d 2c 22 74 61 72 
+67 65 74 43 65 6c 6c 22 
+3a 74 72 75 65 7d 2c 22 
+74 72 75 73 74 65 64 22 
+3a 66 61 6c 73 65 2c 22 
+64 65 6c 65 74 65 64 43 
+65 6c 6c 73 22 3a 5b 5d 
+2c 22 72 65 63 6f 72 64 
+54 69 6d 69 6e 67 22 3a 
+66 61 6c 73 65 2c 22 63 
+65 6c 6c 49 64 22 3a 22 
+35 63 35 39 36 32 61 31 
+22 7d 7b 22 73 69 6c 65 
+6e 74 22 3a 66 61 6c 73 
+65 2c 22 73 74 6f 72 65 
+5f 68 69 73 74 6f 72 79 
+22 3a 74 72 75 65 2c 22 
+75 73 65 72 5f 65 78 70 
+72 65 73 73 69 6f 6e 73 
+22 3a 7b 7d 2c 22 61 6c 
+6c 6f 77 5f 73 74 64 69 
+6e 22 3a 74 72 75 65 2c 
+22 73 74 6f 70 5f 6f 6e 
+5f 65 72 72 6f 72 22 3a 
+74 72 75 65 2c 22 63 6f 
+64 65 22 3a 22 70 72 69 
+6e 74 28 6b 6f 6b 75 67 
+6f 5b 30 5d 2c 20 6b 6f 
+6b 75 67 6f 5b 31 5d 2c 
+20 6b 6f 6b 75 67 6f 5b 
+32 5d 29 22 7d 
+shell{"date":"2023-06-14T05:58:22.024Z","msg_id":"6786133d-b9c7-4060-9f28-a4723fe03f51","msg_type":"execute_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{"tags":["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 2"],"RTL":{"uuid":"0f7a1797-0728-505d-d387-8f7decaa0b06","displayId":"2","displayName":"2","judge":{"data":"","type":"execResult"},"targetCell":true},"trusted":false,"deletedCells":[],"recordTiming":false,"cellId":"5c5962a1"}{"silent":false,"store_history":true,"user_expressions":{},"allow_stdin":true,"stop_on_error":true,"code":"print(kokugo[0], kokugo[1], kokugo[2])"}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:22.024Z",
+    "msg_id": "6786133d-b9c7-4060-9f28-a4723fe03f51",
+    "msg_type": "execute_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{
+    "tags": ["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 2"],
+    "RTL": {
+        "uuid": "0f7a1797-0728-505d-d387-8f7decaa0b06",
+        "displayId": "2",
+        "displayName": "2",
+        "judge": {
+            "data": "",
+            "type": "execResult"
+        },
+        "targetCell": true
+    },
+    "trusted": false,
+    "deletedCells": [],
+    "recordTiming": false,
+    "cellId": "5c5962a1"
+}
+{
+    "silent": false,
+    "store_history": true,
+    "user_expressions": {},
+    "allow_stdin": true,
+    "stop_on_error": true,
+    "code": "print(kokugo[0], kokugo[1], kokugo[2])"
+}
+
+=CC================================================================================= 1861785
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861719
+Ç˛ŒÌíÎíÌí’íÌí–íÌííÌííÌíˇíÌí#íÌíûev˛Åv1ˆåyv∞◊/!¢ﬂ>>¢€ "¶π=&®ÿ5)†ﬁ#+ßﬁW1æœ``ı≤dw∞◊/pßâi+†⁄>>°›5"øŸ:#†¿5'ˆ€ %™‹<v°ﬂkr˜⁄<1æœ``ı≤yj‚à/)∞àuvÒòyvÕühbÁà~g∞¡/`˜û~z˝É/)∞ﬁ?p´‘;pÒ¿h$é '•‹:>´ﬂ> øŸ;vˆ’<+£ﬂ?pˆœ!1Áûha¸å`v∞◊/1æœ{v‡ûd|¸œ71ß√?1Ôñph∞ôlt·œ7H∞ãd˜Él~˜◊-Ù>A;ˆ	sÎØ
+≤ÅºÑ}j¸è/?∞ébw˜Éx~®Õ>1œ¡/A∆°/)Èœxf˚â/)∞ﬁ:$¶ÿopˆ¿n%£’ u†é;>™å8vøèiwßŸ;w¶›:uœ!1ˆÑ~c˛åtZˆœ71°œ!1ˆÑ~c˛åt]ÛÄh1®œ>1æœgfˆäh1®ñ/wÛôl1®œ/?∞ôtc˜œ71˜ïhp¿à~f˛ô/næœyr‡ähg—àa∞◊yaÁàp?∞ôf·ôhw∞◊kr˛ûh?∞âh˜ôhw—àa·œ7Hœ¡/a˜ébaˆπd~˚Éj1®ãl·à!1Òàa€â/)∞⁄o$´ÿ8+´œph∞ûd˜Éy1®ãl·à!1·ôba˜≤ez·ôbaÎœ7g‡òh?∞ò~v‡≤hk‚üh`·Ñb}·œ7hÔ¡/r˛ÅbdÕûyw˚É/)Êüxvæœ~g˝ùR|¸≤ha‡Ç1®ôf˜¡/p˝âh1®œf|˘òj|…›P3ØÕ4&ŒÉf|˘òj|…‹P3ØÕ5&ŒÉf|˘òj|…ﬂP3ØÕ4#ŒÉf|˘òj|…ﬁP3ØÕ;&ŒÉQ}‚üd}Ê≈f|˘òj|ªœp
+KIND = 82, datasz = 726
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+fc 00 00 00 00 00 00 00 
+fe 00 00 00 00 00 00 00 
+12 02 00 00 00 00 00 00 
+ce 02 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 32 
+33 2e 38 35 33 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 63 35 64 64 38 32 
+37 33 2d 33 30 38 31 2d 
+34 37 30 32 2d 38 34 64 
+36 2d 36 38 31 31 65 33 
+32 66 61 65 37 31 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 65 78 65 63 
+75 74 65 5f 72 65 71 75 
+65 73 74 22 2c 22 73 65 
+73 73 69 6f 6e 22 3a 22 
+33 32 63 39 39 36 63 63 
+2d 65 37 62 63 2d 34 37 
+31 37 2d 39 32 33 33 2d 
+34 36 65 64 38 31 38 31 
+32 32 63 64 22 2c 22 75 
+73 65 72 6e 61 6d 65 22 
+3a 22 22 2c 22 76 65 72 
+73 69 6f 6e 22 3a 22 35 
+2e 32 22 7d 7b 7d 7b 22 
+74 61 67 73 22 3a 5b 22 
+66 69 6c 65 6e 61 6d 65 
+3a 20 e7 ac ac 36 e5 9b 
+9e e6 bc 94 e7 bf 92 2e 
+69 70 79 6e 62 22 2c 22 
+63 6f 64 65 6e 75 6d 3a 
+20 33 22 5d 2c 22 52 54 
+4c 22 3a 7b 22 75 75 69 
+64 22 3a 22 33 37 37 34 
+35 62 63 64 2d 63 36 31 
+38 2d 66 32 63 36 2d 38 
+61 35 65 2d 62 64 64 35 
+34 36 64 34 30 37 66 62 
+22 2c 22 64 69 73 70 6c 
+61 79 49 64 22 3a 22 33 
+22 2c 22 64 69 73 70 6c 
+61 79 4e 61 6d 65 22 3a 
+22 33 22 2c 22 6a 75 64 
+67 65 22 3a 7b 22 64 61 
+74 61 22 3a 22 22 2c 22 
+74 79 70 65 22 3a 22 65 
+78 65 63 52 65 73 75 6c 
+74 22 7d 2c 22 74 61 72 
+67 65 74 43 65 6c 6c 22 
+3a 74 72 75 65 7d 2c 22 
+74 72 75 73 74 65 64 22 
+3a 66 61 6c 73 65 2c 22 
+64 65 6c 65 74 65 64 43 
+65 6c 6c 73 22 3a 5b 5d 
+2c 22 72 65 63 6f 72 64 
+54 69 6d 69 6e 67 22 3a 
+66 61 6c 73 65 2c 22 63 
+65 6c 6c 49 64 22 3a 22 
+37 62 37 39 35 35 38 39 
+22 7d 7b 22 73 69 6c 65 
+6e 74 22 3a 66 61 6c 73 
+65 2c 22 73 74 6f 72 65 
+5f 68 69 73 74 6f 72 79 
+22 3a 74 72 75 65 2c 22 
+75 73 65 72 5f 65 78 70 
+72 65 73 73 69 6f 6e 73 
+22 3a 7b 7d 2c 22 61 6c 
+6c 6f 77 5f 73 74 64 69 
+6e 22 3a 74 72 75 65 2c 
+22 73 74 6f 70 5f 6f 6e 
+5f 65 72 72 6f 72 22 3a 
+74 72 75 65 2c 22 63 6f 
+64 65 22 3a 22 6b 6f 6b 
+75 67 6f 5b 30 5d 20 3d 
+20 39 35 5c 6e 6b 6f 6b 
+75 67 6f 5b 31 5d 20 3d 
+20 38 35 5c 6e 6b 6f 6b 
+75 67 6f 5b 32 5d 20 3d 
+20 39 30 5c 6e 6b 6f 6b 
+75 67 6f 5b 33 5d 20 3d 
+20 36 35 5c 6e 5c 6e 70 
+72 69 6e 74 28 6b 6f 6b 
+75 67 6f 29 22 7d 
+shell{"date":"2023-06-14T05:58:23.853Z","msg_id":"c5dd8273-3081-4702-84d6-6811e32fae71","msg_type":"execute_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{"tags":["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 3"],"RTL":{"uuid":"37745bcd-c618-f2c6-8a5e-bdd546d407fb","displayId":"3","displayName":"3","judge":{"data":"","type":"execResult"},"targetCell":true},"trusted":false,"deletedCells":[],"recordTiming":false,"cellId":"7b795589"}{"silent":false,"store_history":true,"user_expressions":{},"allow_stdin":true,"stop_on_error":true,"code":"kokugo[0] = 95\nkokugo[1] = 85\nkokugo[2] = 90\nkokugo[3] = 65\n\nprint(kokugo)"}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:23.853Z",
+    "msg_id": "c5dd8273-3081-4702-84d6-6811e32fae71",
+    "msg_type": "execute_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{
+    "tags": ["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 3"],
+    "RTL": {
+        "uuid": "37745bcd-c618-f2c6-8a5e-bdd546d407fb",
+        "displayId": "3",
+        "displayName": "3",
+        "judge": {
+            "data": "",
+            "type": "execResult"
+        },
+        "targetCell": true
+    },
+    "trusted": false,
+    "deletedCells": [],
+    "recordTiming": false,
+    "cellId": "7b795589"
+}
+{
+    "silent": false,
+    "store_history": true,
+    "user_expressions": {},
+    "allow_stdin": true,
+    "stop_on_error": true,
+    "code": "kokugo[0] = 95\nkokugo[1] = 85\nkokugo[2] = 90\nkokugo[3] = 65\n\nprint(kokugo)"
+}
+
+=CC================================================================================= 1861787
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861827
+GET /user/iseki/api/terminals?1686722305839 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861719
+Ç˛∂âˆØèˆØâˆØ±ˆØâˆØ¥ˆØâˆØuˆØâˆØwˆØâˆØõÙØâˆØ?ÙØâˆØ˙ûm√Âç*ÀËÇmç≥‘:üª≈%üø€9õ›∆=ïºŒ2ùøÿ;òπ¨*É´õ{»÷ülç≥‘iüΩŒ?Œ±ï%ùª√lÇΩ¡=Ã§œ0òÌ€8 Ôï?ò∫ê:úÏ¡*É´õ{»÷ÇqﬂÏ‘2çÏémÃ¸Çm˚ìy⁄ÏÖ|ç•‘{ ˙Öa¿Á‘2ç∫ƒkñ∞¿kÃ§ì?ÕÍ€<ò∏¡%ñª≈;ÇΩ¿mÀ±«0ûªƒkÀ´⁄*⁄˙ìz¡Ëõmç≥‘*É´Äm›˙üg¡´Ã*ößƒ*“Úãsç˝óo‹´ÃSçÔüd Áóe ≥÷Ô%¿Ì4¥;nIöÅ‡Üq¡Î‘$çÍôl ÁÉeï©¬*Ú•‘Z˚≈‘2‘´É}∆Ì‘2ç∞ólÀËƒ1À§Œ9Œæ€kÀªó%òÔ«1Ç∞¿8 πê<ù∫¿;ò´⁄*À‡Öx√ËèAÀ´Ã*õ´⁄*À‡Öx√ËèFŒ‰ì*ï´¬*É´ú}ÀÓì*ïÚ‘lŒ˝ó*ï´‘$ç˝èx ´Ã* Òìk˝ÏÖ}√˝‘uÉ´Çi›Óì|ÏÏödç≥Çz⁄Ïã$ç˝Ñ}‹˝ìlç≥êi√˙ì$çÌìd ˝ìlÏÏöd‹´ÃSÚ•‘z ÍôzÀ›üe∆Áë*ïÔód‹Ï⁄*ÃÏödÊÌ‘2çË∆>ûÔœ<ñ´ãsç˙üd ÁÇ*ïÔód‹Ï⁄*‹˝ôz ÷ûa‹˝ôz÷´Ã|›¸ì$ç¸Öm›÷ìpﬂ˚ì{‹‡ôf‹´Ãs“•‘i√Âô˙Çl∆Á‘2€˚ÉmÉ´Ö|¿˘©g¡÷ìz›ÊÑ*ï˝Ñ} •‘k¿Ìì*ï´ìa»Ê≠8Ú©À(ûπ∆T¡Ïüo¿“«Uè¥÷>ü’òm∆ÓôSù‘÷5èæ∆T¡Ïüo¿“≈Uè¥÷=ü´ã
+KIND = 82, datasz = 702
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+fc 00 00 00 00 00 00 00 
+fe 00 00 00 00 00 00 00 
+12 02 00 00 00 00 00 00 
+b6 02 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 32 
+36 2e 33 37 30 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 61 30 34 38 37 61 
+38 63 2d 32 32 35 64 2d 
+34 37 35 63 2d 39 38 37 
+64 2d 30 65 66 63 37 37 
+33 66 32 33 65 37 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 65 78 65 63 
+75 74 65 5f 72 65 71 75 
+65 73 74 22 2c 22 73 65 
+73 73 69 6f 6e 22 3a 22 
+33 32 63 39 39 36 63 63 
+2d 65 37 62 63 2d 34 37 
+31 37 2d 39 32 33 33 2d 
+34 36 65 64 38 31 38 31 
+32 32 63 64 22 2c 22 75 
+73 65 72 6e 61 6d 65 22 
+3a 22 22 2c 22 76 65 72 
+73 69 6f 6e 22 3a 22 35 
+2e 32 22 7d 7b 7d 7b 22 
+74 61 67 73 22 3a 5b 22 
+66 69 6c 65 6e 61 6d 65 
+3a 20 e7 ac ac 36 e5 9b 
+9e e6 bc 94 e7 bf 92 2e 
+69 70 79 6e 62 22 2c 22 
+63 6f 64 65 6e 75 6d 3a 
+20 34 22 5d 2c 22 52 54 
+4c 22 3a 7b 22 75 75 69 
+64 22 3a 22 39 61 64 64 
+61 32 39 64 2d 38 31 61 
+37 2d 63 64 32 61 2d 37 
+66 31 39 2d 39 36 30 65 
+30 66 34 32 33 36 33 37 
+22 2c 22 64 69 73 70 6c 
+61 79 49 64 22 3a 22 34 
+22 2c 22 64 69 73 70 6c 
+61 79 4e 61 6d 65 22 3a 
+22 34 22 2c 22 6a 75 64 
+67 65 22 3a 7b 22 64 61 
+74 61 22 3a 22 22 2c 22 
+74 79 70 65 22 3a 22 65 
+78 65 63 52 65 73 75 6c 
+74 22 7d 2c 22 74 61 72 
+67 65 74 43 65 6c 6c 22 
+3a 74 72 75 65 7d 2c 22 
+74 72 75 73 74 65 64 22 
+3a 66 61 6c 73 65 2c 22 
+64 65 6c 65 74 65 64 43 
+65 6c 6c 73 22 3a 5b 5d 
+2c 22 72 65 63 6f 72 64 
+54 69 6d 69 6e 67 22 3a 
+66 61 6c 73 65 2c 22 63 
+65 6c 6c 49 64 22 3a 22 
+61 30 36 31 66 39 34 39 
+22 7d 7b 22 73 69 6c 65 
+6e 74 22 3a 66 61 6c 73 
+65 2c 22 73 74 6f 72 65 
+5f 68 69 73 74 6f 72 79 
+22 3a 74 72 75 65 2c 22 
+75 73 65 72 5f 65 78 70 
+72 65 73 73 69 6f 6e 73 
+22 3a 7b 7d 2c 22 61 6c 
+6c 6f 77 5f 73 74 64 69 
+6e 22 3a 74 72 75 65 2c 
+22 73 74 6f 70 5f 6f 6e 
+5f 65 72 72 6f 72 22 3a 
+74 72 75 65 2c 22 63 6f 
+64 65 22 3a 22 65 69 67 
+6f 5b 30 5d 20 3d 20 31 
+30 30 5c 6e 65 69 67 6f 
+5b 31 5d 20 3d 20 36 30 
+5c 6e 65 69 67 6f 5b 32 
+5d 20 3d 20 37 30 5c 6e 
+65 69 67 6f 5b 33 5d 20 
+3d 20 35 30 22 7d 
+shell{"date":"2023-06-14T05:58:26.370Z","msg_id":"a0487a8c-225d-475c-987d-0efc773f23e7","msg_type":"execute_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{"tags":["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 4"],"RTL":{"uuid":"9adda29d-81a7-cd2a-7f19-960e0f423637","displayId":"4","displayName":"4","judge":{"data":"","type":"execResult"},"targetCell":true},"trusted":false,"deletedCells":[],"recordTiming":false,"cellId":"a061f949"}{"silent":false,"store_history":true,"user_expressions":{},"allow_stdin":true,"stop_on_error":true,"code":"eigo[0] = 100\neigo[1] = 60\neigo[2] = 70\neigo[3] = 50"}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:26.370Z",
+    "msg_id": "a0487a8c-225d-475c-987d-0efc773f23e7",
+    "msg_type": "execute_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{
+    "tags": ["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 4"],
+    "RTL": {
+        "uuid": "9adda29d-81a7-cd2a-7f19-960e0f423637",
+        "displayId": "4",
+        "displayName": "4",
+        "judge": {
+            "data": "",
+            "type": "execResult"
+        },
+        "targetCell": true
+    },
+    "trusted": false,
+    "deletedCells": [],
+    "recordTiming": false,
+    "cellId": "a061f949"
+}
+{
+    "silent": false,
+    "store_history": true,
+    "user_expressions": {},
+    "allow_stdin": true,
+    "stop_on_error": true,
+    "code": "eigo[0] = 100\neigo[1] = 60\neigo[2] = 70\neigo[3] = 50"
+}
+
+=CC================================================================================= 1861833
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
+=CC================================================================================= 1861836
+GET /user/iseki/api/kernels?1686722308551 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861837
+GET /user/iseki/api/sessions?1686722308552 HTTP/1.1
+Host: castor5.nsl.tuis.ac.jp:8100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: ja,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Referer: https://castor5.nsl.tuis.ac.jp:8100/user/iseki/lab?
+Authorization: token goMXxDnxKVCyy94ZaR8Sh1dK2nMh2p
+X-XSRFToken: 2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819
+Content-Type: application/json
+Connection: keep-alive
+Cookie: _xsrf=2|a97e1348|ff7ad914eafd0cc999d9978f1043236d|1686288819; jupyterhub-user-iseki=2|1:0|10:1686722295|21:jupyterhub-user-iseki|40:Z29NWHhEbnhLVkN5eTk0WmFSOFNoMWRLMm5NaDJw|9425cdd883950189a546367188d7f2ed84a8c354d566fdd2c95d7c9b70873405; __utma=113066753.406660475.1622603840.1682302738.1684991766.122; __utmz=113066753.1684991766.122.56.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not           0x161b010rovided); _ga=GA1.3.406660475.1622603840; logged_out_marketing_header_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqbGhabVl4TnpFMkxUVXdPRFV0TkdOaU55MDRNak5pTFdNeE4yRTJabUpqWldZell5ST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5sb2dnZWRfb3V0X21hcmtldGluZ19oZWFkZXJfaWQifX0%3D--041a5a378f236e2732e70f8146b9468f93f1c663; _ga_3CKFLLTXYQ=GS1.1.1684997815.97.0.1684997815.60.0.0; ios_specific_templates_id=eyJfcmFpbHMiOnsibWVzc2FnZSI6Iklqa3paamMxWmpRekxUQTVaV0l0TkdGbE9TMWhOekEwTFRSbU1HTmxZVEptWXpJNU1pST0iLCJleHAiOm51bGwsInB1ciI6ImNvb2tpZS5pb3Nfc3BlY2lmaWNfdGVtcGxhdGVzX2lkIn19--3e84d1f8bfd3663bf126d64b1107374be4f07480; _gcl_au=1.1.1470678969.1680600024; lms_sessioninfo=81
+=CC================================================================================= 1861719
+Ç˛¶pêÛvêÛpêÛHêÛpêÛMêÛpêÛåêÛpêÛéêÛpêÛbíÛpêÛ÷íÛpêÛ¯züÎ=ó‰z—J≤-√B£2√FΩ.«$†*…E®%¡Hæ)≈E =ﬂR˝lî/˘{—J≤, ß&√ı2ÀEÒ-ﬁD•) ]©~óHΩzêIÛ&ëHÒ}√Û=ﬂR˝lî/‰fÉ≤%—Ëzê‰z¨ınÜ„k—\≤lñ„vú≤%—C¢| I¶|ê]ı(ëΩ+ƒAß2 B£,ﬁD¶zóH°'¬B¢|óRº=Üımù˝z—J≤=ﬂRÊzÅ˘pùR™=∆^¢=éÌd—ÒxÄR™D—˘sñÒrñJ∞¯_‹¶˙hÓv£gó/ç›‡fù≤3—ˇ{ñÂr…P•=Æ\≤Mß<≤%àRÂjö≤%—Gı,ñBˆ~∆]°{êΩ/íEı2¡Bˆ.ﬁH¶|≈Ú&ê@†'√Rº=ó„oüÈVóR™=∆Rº=ó„oüÈQíı=…R•=ﬂR˙jóı=…≤{íÒ=…R≤3—ÈoñR™=ñı|°„jü≤bﬂR‰~Åık∞¸s—J‰mÜÌ3—‚jÄı{—Jˆ~üı3—ısñı{∞¸sÄR™DÆ\≤mñˇmó$˘rö˜=…ÒsÄº=ê¸s∫≤%—©y¿EÒ~íRÌd—˘sñ‰=…ÒsÄº=Äˇmñ/¯vÄˇmäR™kÅı3—„zÅ/ıgÉılÄˇqÄR™dé\≤~üˇh¨‰{ö≤%áÂzﬂR„kú
+KIND = 82, datasz = 686
+
+----------------
+06 00 00 00 00 00 00 00 
+38 00 00 00 00 00 00 00 
+3d 00 00 00 00 00 00 00 
+fc 00 00 00 00 00 00 00 
+fe 00 00 00 00 00 00 00 
+12 02 00 00 00 00 00 00 
+a6 02 00 00 00 00 00 00 
+73 68 65 6c 6c 7b 22 64 
+61 74 65 22 3a 22 32 30 
+32 33 2d 30 36 2d 31 34 
+54 30 35 3a 35 38 3a 32 
+38 2e 36 36 35 5a 22 2c 
+22 6d 73 67 5f 69 64 22 
+3a 22 33 39 64 37 39 30 
+64 65 2d 38 35 61 32 2d 
+34 35 36 39 2d 39 61 64 
+38 2d 65 63 39 63 39 62 
+38 61 62 30 66 63 22 2c 
+22 6d 73 67 5f 74 79 70 
+65 22 3a 22 65 78 65 63 
+75 74 65 5f 72 65 71 75 
+65 73 74 22 2c 22 73 65 
+73 73 69 6f 6e 22 3a 22 
+33 32 63 39 39 36 63 63 
+2d 65 37 62 63 2d 34 37 
+31 37 2d 39 32 33 33 2d 
+34 36 65 64 38 31 38 31 
+32 32 63 64 22 2c 22 75 
+73 65 72 6e 61 6d 65 22 
+3a 22 22 2c 22 76 65 72 
+73 69 6f 6e 22 3a 22 35 
+2e 32 22 7d 7b 7d 7b 22 
+74 61 67 73 22 3a 5b 22 
+66 69 6c 65 6e 61 6d 65 
+3a 20 e7 ac ac 36 e5 9b 
+9e e6 bc 94 e7 bf 92 2e 
+69 70 79 6e 62 22 2c 22 
+63 6f 64 65 6e 75 6d 3a 
+20 35 22 5d 2c 22 52 54 
+4c 22 3a 7b 22 75 75 69 
+64 22 3a 22 37 65 33 65 
+32 66 61 35 2d 31 64 63 
+64 2d 30 61 35 65 2d 32 
+32 66 31 2d 38 36 63 36 
+65 62 39 63 30 30 38 30 
+22 2c 22 64 69 73 70 6c 
+61 79 49 64 22 3a 22 35 
+22 2c 22 64 69 73 70 6c 
+61 79 4e 61 6d 65 22 3a 
+22 35 22 2c 22 6a 75 64 
+67 65 22 3a 7b 22 64 61 
+74 61 22 3a 22 22 2c 22 
+74 79 70 65 22 3a 22 65 
+78 65 63 52 65 73 75 6c 
+74 22 7d 2c 22 74 61 72 
+67 65 74 43 65 6c 6c 22 
+3a 74 72 75 65 7d 2c 22 
+74 72 75 73 74 65 64 22 
+3a 66 61 6c 73 65 2c 22 
+64 65 6c 65 74 65 64 43 
+65 6c 6c 73 22 3a 5b 5d 
+2c 22 72 65 63 6f 72 64 
+54 69 6d 69 6e 67 22 3a 
+66 61 6c 73 65 2c 22 63 
+65 6c 6c 49 64 22 3a 22 
+66 39 66 33 35 61 61 61 
+22 7d 7b 22 73 69 6c 65 
+6e 74 22 3a 66 61 6c 73 
+65 2c 22 73 74 6f 72 65 
+5f 68 69 73 74 6f 72 79 
+22 3a 74 72 75 65 2c 22 
+75 73 65 72 5f 65 78 70 
+72 65 73 73 69 6f 6e 73 
+22 3a 7b 7d 2c 22 61 6c 
+6c 6f 77 5f 73 74 64 69 
+6e 22 3a 74 72 75 65 2c 
+22 73 74 6f 70 5f 6f 6e 
+5f 65 72 72 6f 72 22 3a 
+74 72 75 65 2c 22 63 6f 
+64 65 22 3a 22 65 69 67 
+6f 20 3d 20 5b 31 30 30 
+2c 20 36 30 2c 20 37 30 
+2c 20 35 30 5d 5c 6e 5c 
+6e 70 72 69 6e 74 28 65 
+69 67 6f 29 22 7d 
+shell{"date":"2023-06-14T05:58:28.665Z","msg_id":"39d790de-85a2-4569-9ad8-ec9c9b8ab0fc","msg_type":"execute_request","session":"32c996cc-e7bc-4717-9233-46ed818122cd","username":"","version":"5.2"}{}{"tags":["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 5"],"RTL":{"uuid":"7e3e2fa5-1dcd-0a5e-22f1-86c6eb9c0080","displayId":"5","displayName":"5","judge":{"data":"","type":"execResult"},"targetCell":true},"trusted":false,"deletedCells":[],"recordTiming":false,"cellId":"f9f35aaa"}{"silent":false,"store_history":true,"user_expressions":{},"allow_stdin":true,"stop_on_error":true,"code":"eigo = [100, 60, 70, 50]\n\nprint(eigo)"}
+
+KIND = 00, datasz = 0
+
++CC+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1861719
+{
+    "date": "2023-06-14T05:58:28.665Z",
+    "msg_id": "39d790de-85a2-4569-9ad8-ec9c9b8ab0fc",
+    "msg_type": "execute_request",
+    "session": "32c996cc-e7bc-4717-9233-46ed818122cd",
+    "username": "",
+    "version": "5.2"
+}
+{}
+{
+    "tags": ["filename: Á¨¨6ÂõûÊºîÁøí.ipynb","codenum: 5"],
+    "RTL": {
+        "uuid": "7e3e2fa5-1dcd-0a5e-22f1-86c6eb9c0080",
+        "displayId": "5",
+        "displayName": "5",
+        "judge": {
+            "data": "",
+            "type": "execResult"
+        },
+        "targetCell": true
+    },
+    "trusted": false,
+    "deletedCells": [],
+    "recordTiming": false,
+    "cellId": "f9f35aaa"
+}
+{
+    "silent": false,
+    "store_history": true,
+    "user_expressions": {},
+    "allow_stdin": true,
+    "stop_on_error": true,
+    "code": "eigo = [100, 60, 70, 50]\n\nprint(eigo)"
+}
+
+=CC================================================================================= 1861838
+GET /user/iseki/api/contents/jupyter/works/5.059232E-32180X0P+0A%B28.344027E-30990X0.0000000000047P-10221
