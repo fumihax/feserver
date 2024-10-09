@@ -215,8 +215,14 @@ int main(int argc, char** argv)
     SSL_CTX* client_ctx = NULL;
     if (ServerSSL==ON || ClientSSL==ON) {
         ssl_init();
-        if (ServerSSL==ON) server_ctx = ssl_server_setup((char*)certfile.buf, (char*)keyfile.buf, (char*)chainfile.buf);
-        if (ClientSSL==ON) client_ctx = ssl_client_setup(NULL);
+        if (ServerSSL==ON) {
+            server_ctx = ssl_server_setup((char*)certfile.buf, (char*)keyfile.buf, (char*)chainfile.buf);
+            if (server_ctx==NULL) print_message("サーバ用CTX の作成エラー．(%s) (%s) (%s)\n", (char*)certfile.buf, (char*)keyfile.buf, (char*)chainfile.buf);
+        }
+        if (ClientSSL==ON) {
+            client_ctx = ssl_client_setup(NULL);
+            if (client_ctx==NULL) print_message("クライアント用CTX の作成エラー．\n");
+        }
     }
 
     // main loop

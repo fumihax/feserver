@@ -93,18 +93,12 @@ int   fe_server(int dummy1, int sofd, SSL* dummy2, SSL* ssl, char* mesg, int cc)
 
     cc = ssl_tcp_send(sofd, ssl, mesg, cc);
 
-    //print_message("\nS=>C:\n");
-    //print_message("%s\n", mesg);
+    print_message("\n\nS=>C: [%d]\n", cc);
+    print_message("%s\n", mesg);
 
- /*
-    int i, cnt = 0;
-    for (i=0; i<cc; i++)  {
-        print_message(" %02x", ((unsigned char*)mesg)[i]);
-        cnt++;
-        if (cnt%16==0) print_message("\n");
-    }
-    if (cnt%16!=0) print_message("\n");
- */
+    print_message("-----------------------------------------------\n");
+    fdump(stderr, (unsigned char*)mesg, cc);
+    fflush(stderr);    
 
     return cc;
 }
@@ -130,27 +124,18 @@ int   fe_client(int dummy1, int cofd, SSL* dummy2, SSL* ssl, char* mesg, int cc)
     del_tList(&lst);
 
     cc = ssl_tcp_send_Buffer(cofd, ssl, &buf);
-    
     print_message("%s\n", buf.buf);
-
     free_Buffer(&buf);
 */
 
     cc = ssl_tcp_send(cofd, ssl, mesg, cc);
 
-    //print_message("\nC=>S: [%d]\n", cc);
-    //print_message("%s\n", mesg);
+    print_message("\n\nC=>S: [%d]\n", cc);
+    print_message("%s\n", mesg);
 
-/*
-    int i, cnt = 0;
-    for (i=0; i<cc; i++)  {
-        print_message(" %02x", ((unsigned char*)mesg)[i]);
-        cnt++;
-        if (cnt%16==0) print_message("\n");
-    }
-    if (cnt%16!=0) print_message("\n");
-*/
-    //}
+    print_message("-----------------------------------------------\n");
+    fdump(stderr, (unsigned char*)mesg, cc);
+    fflush(stderr);    
 
     return cc;
 }
