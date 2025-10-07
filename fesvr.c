@@ -109,7 +109,7 @@ int main(int argc, char** argv)
 
     // Config File
     tList* filelist = NULL;
-    if (configfile.buf!=NULL) filelist = read_index_tList_file((char*)configfile.buf, '=');
+    if (configfile.buf!=NULL) filelist = read_index_tList_file((char*)configfile.buf, ' ');
     //
     if (certfile.buf==NULL) {
         char* cert = get_str_param_tList(filelist, "Fesvr_Server_Cert", DEFAULT_CERT_FILE);
