@@ -123,6 +123,7 @@ int   fe_server(int dummy1, int sofd, SSL* dummy2, SSL* ssl, char* mesg, int cc)
         if (cnt%16==0) print_message("\n");
     }
     if (cnt%16!=0) print_message("\n");
+    print_message("\n");
 /**/
 
     //
@@ -144,6 +145,8 @@ int   fe_server(int dummy1, int sofd, SSL* dummy2, SSL* ssl, char* mesg, int cc)
 
     if (ServerDER!=NULL) {
         print_tDER(stdout, ServerDER);
+        fprintf(stdout, "\n");
+        fflush(stdout);
         if (ServerDER!=NULL) del_DER(&ServerDER);
     }
     return cc;
@@ -170,6 +173,7 @@ int   fe_client(int dummy1, int cofd, SSL* dummy2, SSL* ssld, char* mesg, int cc
         if (cnt%16==0) print_message("\n");
     }
     if (cnt%16!=0) print_message("\n");
+    print_message("\n");
 /**/
 
     //
@@ -191,6 +195,8 @@ int   fe_client(int dummy1, int cofd, SSL* dummy2, SSL* ssld, char* mesg, int cc
 
     if (ClientDER!=NULL) {
         print_tDER(stdout, ClientDER);
+        fprintf(stdout, "\n");
+        fflush(stdout);
         if (ClientDER!=NULL) del_DER(&ClientDER);
     }
 
